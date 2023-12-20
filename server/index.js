@@ -9,6 +9,7 @@ app.use(cors());
 app.use(express.json()); //for getting access to request.body
 
 //ROUTES//
+
 //create a todo
 app.post('/todos', async (req, res) => {
   try {
